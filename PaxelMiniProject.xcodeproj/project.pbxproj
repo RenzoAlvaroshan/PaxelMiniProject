@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83760BD928F1169B0024309B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83760BD828F1169B0024309B /* Repository.swift */; };
+		83760BDC28F1190E0024309B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83760BDB28F1190E0024309B /* Service.swift */; };
+		83760BDE28F11DB50024309B /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83760BDD28F11DB50024309B /* RepoCell.swift */; };
+		83760BE028F137E80024309B /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83760BDF28F137E80024309B /* RepoViewModel.swift */; };
+		8380957B28EEC68E00F41504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380957A28EEC68E00F41504 /* AppDelegate.swift */; };
+		8380957D28EEC68E00F41504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380957C28EEC68E00F41504 /* SceneDelegate.swift */; };
+		8380957F28EEC68E00F41504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380957E28EEC68E00F41504 /* ViewController.swift */; };
+		8380958428EEC68E00F41504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8380958328EEC68E00F41504 /* Assets.xcassets */; };
+		8380958728EEC68E00F41504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8380958528EEC68E00F41504 /* LaunchScreen.storyboard */; };
+		BD77B97EDCF33EA05223A77E /* Pods_PaxelMiniProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E38BA77DA78CA9FCF52A9CD /* Pods_PaxelMiniProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A32BBF9C0CAD42B5DB68E6F /* Pods-PaxelMiniProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxelMiniProject.debug.xcconfig"; path = "Target Support Files/Pods-PaxelMiniProject/Pods-PaxelMiniProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3E38BA77DA78CA9FCF52A9CD /* Pods_PaxelMiniProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaxelMiniProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83760BD828F1169B0024309B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		83760BDB28F1190E0024309B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		83760BDD28F11DB50024309B /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		83760BDF28F137E80024309B /* RepoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewModel.swift; sourceTree = "<group>"; };
+		8380957728EEC68E00F41504 /* PaxelMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaxelMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8380957A28EEC68E00F41504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8380957C28EEC68E00F41504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8380957E28EEC68E00F41504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8380958328EEC68E00F41504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8380958628EEC68E00F41504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8380958828EEC68E00F41504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D72B60013C75208070ACED /* Pods-PaxelMiniProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxelMiniProject.release.xcconfig"; path = "Target Support Files/Pods-PaxelMiniProject/Pods-PaxelMiniProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8380957428EEC68E00F41504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD77B97EDCF33EA05223A77E /* Pods_PaxelMiniProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50C283A4736176359D55912B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E38BA77DA78CA9FCF52A9CD /* Pods_PaxelMiniProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83760BDA28F118FB0024309B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				83760BDB28F1190E0024309B /* Service.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8380956E28EEC68E00F41504 = {
+			isa = PBXGroup;
+			children = (
+				8380957928EEC68E00F41504 /* PaxelMiniProject */,
+				8380957828EEC68E00F41504 /* Products */,
+				849A71476D381EECDD4C5C61 /* Pods */,
+				50C283A4736176359D55912B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8380957828EEC68E00F41504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8380957728EEC68E00F41504 /* PaxelMiniProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8380957928EEC68E00F41504 /* PaxelMiniProject */ = {
+			isa = PBXGroup;
+			children = (
+				8380958E28EEC76A00F41504 /* Model */,
+				8380959028EEC76F00F41504 /* View */,
+				8380958F28EEC76C00F41504 /* ViewModel */,
+				83760BDA28F118FB0024309B /* Network */,
+				8380959128EEC77300F41504 /* Base */,
+				8380958328EEC68E00F41504 /* Assets.xcassets */,
+				8380958528EEC68E00F41504 /* LaunchScreen.storyboard */,
+				8380958828EEC68E00F41504 /* Info.plist */,
+			);
+			path = PaxelMiniProject;
+			sourceTree = "<group>";
+		};
+		8380958E28EEC76A00F41504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83760BD828F1169B0024309B /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8380958F28EEC76C00F41504 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83760BDF28F137E80024309B /* RepoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8380959028EEC76F00F41504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8380957E28EEC68E00F41504 /* ViewController.swift */,
+				83760BDD28F11DB50024309B /* RepoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8380959128EEC77300F41504 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8380957A28EEC68E00F41504 /* AppDelegate.swift */,
+				8380957C28EEC68E00F41504 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		849A71476D381EECDD4C5C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A32BBF9C0CAD42B5DB68E6F /* Pods-PaxelMiniProject.debug.xcconfig */,
+				E9D72B60013C75208070ACED /* Pods-PaxelMiniProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8380957628EEC68E00F41504 /* PaxelMiniProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8380958B28EEC68E00F41504 /* Build configuration list for PBXNativeTarget "PaxelMiniProject" */;
+			buildPhases = (
+				3AD3EFB4EFB5F77C9EA2AB18 /* [CP] Check Pods Manifest.lock */,
+				8380957328EEC68E00F41504 /* Sources */,
+				8380957428EEC68E00F41504 /* Frameworks */,
+				8380957528EEC68E00F41504 /* Resources */,
+				CD9C7C166F03580C41C71297 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaxelMiniProject;
+			productName = PaxelMiniProject;
+			productReference = 8380957728EEC68E00F41504 /* PaxelMiniProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8380956F28EEC68E00F41504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8380957628EEC68E00F41504 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8380957228EEC68E00F41504 /* Build configuration list for PBXProject "PaxelMiniProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8380956E28EEC68E00F41504;
+			productRefGroup = 8380957828EEC68E00F41504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8380957628EEC68E00F41504 /* PaxelMiniProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8380957528EEC68E00F41504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8380958728EEC68E00F41504 /* LaunchScreen.storyboard in Resources */,
+				8380958428EEC68E00F41504 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AD3EFB4EFB5F77C9EA2AB18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaxelMiniProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD9C7C166F03580C41C71297 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaxelMiniProject/Pods-PaxelMiniProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaxelMiniProject/Pods-PaxelMiniProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaxelMiniProject/Pods-PaxelMiniProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8380957328EEC68E00F41504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8380957F28EEC68E00F41504 /* ViewController.swift in Sources */,
+				8380957B28EEC68E00F41504 /* AppDelegate.swift in Sources */,
+				83760BE028F137E80024309B /* RepoViewModel.swift in Sources */,
+				83760BDC28F1190E0024309B /* Service.swift in Sources */,
+				8380957D28EEC68E00F41504 /* SceneDelegate.swift in Sources */,
+				83760BD928F1169B0024309B /* Repository.swift in Sources */,
+				83760BDE28F11DB50024309B /* RepoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8380958528EEC68E00F41504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8380958628EEC68E00F41504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8380958928EEC68E00F41504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8380958A28EEC68E00F41504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8380958C28EEC68E00F41504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A32BBF9C0CAD42B5DB68E6F /* Pods-PaxelMiniProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74Z89SGR3Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaxelMiniProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renzoalvaroshan.PaxelMiniProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8380958D28EEC68E00F41504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D72B60013C75208070ACED /* Pods-PaxelMiniProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74Z89SGR3Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaxelMiniProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renzoalvaroshan.PaxelMiniProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8380957228EEC68E00F41504 /* Build configuration list for PBXProject "PaxelMiniProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8380958928EEC68E00F41504 /* Debug */,
+				8380958A28EEC68E00F41504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8380958B28EEC68E00F41504 /* Build configuration list for PBXNativeTarget "PaxelMiniProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8380958C28EEC68E00F41504 /* Debug */,
+				8380958D28EEC68E00F41504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8380956F28EEC68E00F41504 /* Project object */;
+}
