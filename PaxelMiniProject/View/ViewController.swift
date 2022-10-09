@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     private lazy var searchButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Search", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        button.setTitleColor(UIColor(named: "buttonColor"), for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .bold)
         button.addTarget(self, action: #selector(searchTapped), for: .touchUpInside)
         return button
@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         viewModel.delegate = self
         configureSearchBar()
         configureTableView()
+        self.hideKeyboardWhenTappedAround()
     }
     
     // MARK: - Selectors
@@ -69,6 +70,7 @@ class ViewController: UIViewController {
     @objc func searchTapped() {
         guard let text = repoSearchBar.text else { return }
         viewModel.fetchRepositories(query: text)
+        self.repoSearchBar.endEditing(true)
     }
     
     // MARK: - Helpers
@@ -118,6 +120,7 @@ extension ViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let text = searchBar.text else { return }
         viewModel.fetchRepositories(query: text)
+        self.repoSearchBar.endEditing(true)
     }
 }
 

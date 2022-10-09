@@ -8,8 +8,7 @@ target 'PaxelMiniProject' do
   # Pods for PaxelMiniProject
   pod 'SnapKit'
   pod 'Alamofire'
-  pod 'RxSwift'
-  pod 'RxCocoa'
   pod 'Kingfisher'
+  pod 'IQKeyboardManagerSwift'
 
 end
